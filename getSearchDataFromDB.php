@@ -24,7 +24,7 @@ require_once __DIR__ . "/vendor/autoload.php";
             echo '<div class="card-body">';
             if($new->link != null){
             $link = trim($new->link);
-            echo '<a href="https:'.$link.'" target="_blank" class="card-link">News Link</a>';
+            echo '<a href="'.$link.'" target="_blank" class="card-link">News Link</a>';
             }
             echo '</div>';
             echo "</div>";     

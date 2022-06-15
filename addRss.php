@@ -7,7 +7,6 @@ $collection = (new MongoDB\Client)->cricket->news;
 
 $url = 'https://www.espncricinfo.com/rss/content/story/feeds/8.xml';
 
-//https://www.feedforall.com/sample.xml
 $object = new DOMDocument();
 
 $object->load($url);
